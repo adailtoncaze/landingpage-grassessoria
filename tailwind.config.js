@@ -8,10 +8,13 @@ module.exports = {
   theme: {
     fontFamily: {sans: ["var(--font-poppins)", "sans-serif"]},
     extend: {
+      colors: {
+        'gr-blue-primary': '#3b3c86',
+        'gr-blue-dark': '#313272',
+        'gr-text-base': '#303030'
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'hero-image': "url('/images/hero_bg.png')"
       },
       fontFamily: {mono: ["var(--font-nunito)", "monospace"]},
     },

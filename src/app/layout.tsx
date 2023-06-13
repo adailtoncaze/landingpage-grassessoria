@@ -1,10 +1,11 @@
+import { Header } from "./components/header";
 import "./globals.css";
 import { Poppins, Nunito } from "next/font/google";
 
 const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-poppins",
-  weight: ["400", "500"],
+  weight: ["400", "500", "600", "700"],
 });
 
 const nunito = Nunito({
@@ -26,7 +27,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className={`${poppins.variable} ${nunito.variable}`}>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
