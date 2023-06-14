@@ -25,8 +25,10 @@ export const PartnershipSection = () => {
                             alt="Imagem de uma forma geométrica com quatro peças que se encaixam umas nas outras"
                         />
                     </div>
-                    <div >
-                        <HeaderTitle />
+                    <div className="text-gr-blue-primary">
+                        <HeaderTitle 
+                            title="Conte com GR Acessoria Contábil"
+                        />
                     </div>
                     <div className="w-96 pt-3 pb-10 font-bold text-2xl text-gr-blue-primary">
                         <h2>
