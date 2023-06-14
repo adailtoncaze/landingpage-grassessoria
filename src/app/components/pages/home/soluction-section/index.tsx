@@ -9,7 +9,7 @@ export const SoluctionSection = () => {
                         title="Nosso Ecosistema"
                     />
                 </div>
-                <h1 className="w-2/5 text-white font-semibold text-3xl pb-8">
+                <h1 className="w-2/5 pt-3 text-white font-semibold text-3xl pb-8">
                     Temos a Solução completa
                     para o seu negócio.
                 </h1>
