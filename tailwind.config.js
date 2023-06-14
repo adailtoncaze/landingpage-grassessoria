@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         'gr-blue-primary': '#3b3c86',
         'gr-blue-dark': '#313272',
+        'gr-blue-card': '#322A68',
         'gr-text-base': '#303030'
       },
       backgroundImage: {
