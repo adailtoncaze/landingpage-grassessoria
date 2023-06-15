@@ -37,7 +37,7 @@ export const PartnershipSection = () => {
                         </h2>
                     </div>
                     <div>
-                        <Button className="bg-lime-500 gap-4 px-12 py-4 hover:bg-lime-600">
+                        <Button className="flex justify-center item gap-3 bg-lime-500 px-12 py-4 hover:bg-lime-600">
                             <BsWhatsapp size={24}/>
                             Fale com um especialista
                         </Button>
