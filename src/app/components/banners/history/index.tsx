@@ -9,12 +9,12 @@ export const BannerHistory = () => {
                     <HeaderTitle
                         title="Nossos números"
                     />
-                    <h1 className="w-96 pt-3 font-semibold text-3xl">
+                    <h1 className="w-72 pt-3 font-semibold text-3xl">
                         A nossa história
                         contada em números.
                     </h1>
                 </div>
-                <div className="flex gap-8">
+                <div className="flex gap-9">
                     <div className="flex flex-col items-center gap-2">
                         <Image 
                             width={64}
