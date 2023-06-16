@@ -29,8 +29,8 @@ export const Header = () => {
       <div className="container flex items-center justify-between">
         <Link href="/">
           <Image
-            width={179.67}
-            height={66}
+            width={175.67}
+            height={70}
             src="/images/logo_GR.png"
             alt="Logo da GR Assessoria Contábil"
           />
