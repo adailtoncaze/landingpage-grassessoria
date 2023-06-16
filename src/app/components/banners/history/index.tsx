@@ -9,7 +9,7 @@ export const BannerHistory = () => {
                     <HeaderTitle
                         title="Nossos números"
                     />
-                    <h1 className="w-72 pt-3 font-semibold text-3xl">
+                    <h1 className="w-80 pt-3 font-semibold text-3xl">
                         A nossa história
                         contada em números.
                     </h1>
