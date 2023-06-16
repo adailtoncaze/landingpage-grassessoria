@@ -30,35 +30,35 @@ export const CarouselHeader = () => {
                     <Image 
                        fill
                         src="/images/slide1.jpg"
-                        alt="teste"
+                        alt="Instalações do Escritório de Contabilidade GR Assessoria Contábil"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image 
                        fill
                         src="/images/slide2.jpg"
-                        alt="teste"
+                        alt="Instalações do Escritório de Contabilidade GR Assessoria Contábil"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image 
                        fill
                         src="/images/slide3.jpg"
-                        alt="teste"
+                        alt="Instalações do Escritório de Contabilidade GR Assessoria Contábil"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image 
                        fill
                         src="/images/slide4.jpg"
-                        alt="teste"
+                        alt="Instalações do Escritório de Contabilidade GR Assessoria Contábil"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image 
                        fill
                         src="/images/slide5.jpg"
-                        alt="teste"
+                        alt="Instalações do Escritório de Contabilidade GR Assessoria Contábil"
                     />
                 </SwiperSlide>
             </Swiper>
