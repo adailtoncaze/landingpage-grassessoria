@@ -15,7 +15,8 @@ export const CarouselHeader = () => {
         <>
             <Swiper className="h-screen"
                 spaceBetween={30}
-                effect={"fade"}            
+                effect={"fade"} 
+                speed={1000}           
                 centeredSlides={true}
                 autoplay={{
                     delay: 5000,
