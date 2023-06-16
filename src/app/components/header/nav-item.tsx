@@ -11,7 +11,7 @@ export const NavItem = ({label, href}: NavItemProps) => {
     const isActive = pathname === href
     return (
         <Link href={href} className={cn(
-           "text-gr-blue-primary flex items-center gap-2 font-medium hover:text-gr-blue-dark hover:font-semibold",
+           "text-white flex items-center gap-2 font-medium hover:text-neutral-200",
            isActive && 'font-semibold'
 
         )}>

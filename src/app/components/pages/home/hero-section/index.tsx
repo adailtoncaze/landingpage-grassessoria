@@ -12,7 +12,7 @@ export const HeroSection = () => {
                     <h2 className="text-white font-medium text-xl pb-7 font-mono"><span className="font-extrabold">As melhores soluções contábeis</span> para
                         o sucesso do seu negócio estão aqui! Os números são nossa especialidade,
                         seu crescimento é nosso compromisso.</h2>
-                    <Button className="bg-transparent border-2 hover:bg-white hover:text-gr-blue-primary">
+                    <Button className="bg-transparent border-2 border-gr-yellow-primary hover:bg-gr-yellow-primary hover:text-white">
                         Conheça nossas soluções
                     </Button>
                 </div>

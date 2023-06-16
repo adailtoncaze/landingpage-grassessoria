@@ -25,13 +25,13 @@ const NAV_ITEMS = [
 
 export const Header = () => {
   return (
-    <header className="w-full h-20 flex items-center justify-center">
+    <header className="w-full bg-gr-blue-primary h-20 flex items-center justify-center">
       <div className="container flex items-center justify-between">
         <Link href="/">
           <Image
-            width={163}
-            height={70}
-            src="/images/logo_GR.svg"
+            width={179.67}
+            height={66}
+            src="/images/logo_GR.png"
             alt="Logo da GR Assessoria Contábil"
           />
         </Link>
@@ -40,7 +40,7 @@ export const Header = () => {
             <NavItem {...item} key={item.label}/>
           ))}
         </nav>
-        <Button className="hover:bg-gr-blue-dark py-3">
+        <Button className="bg-gr-yellow-primary hover:bg-gr-yellow-dark py-3">
           Venha para GR Assessoria Contábil
         </Button>
       </div>      

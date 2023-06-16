@@ -11,6 +11,8 @@ module.exports = {
       colors: {
         'gr-blue-primary': '#3b3c86',
         'gr-blue-dark': '#313272',
+        'gr-yellow-primary': '#F2B24C',
+        'gr-yellow-dark': '#E9AC4B',
         'gr-blue-card': '#322A68',
         'gr-text-base': '#303030'
       },
